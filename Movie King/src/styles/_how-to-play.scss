@@ -1,0 +1,66 @@
+@use "mixins" as *;
+
+.how {
+  margin: 0 1rem;
+  padding: 5rem 4rem 7rem;
+  background: #1f1f1f;
+  color: #f0e6d2;
+}
+.how__eyebrow {
+  margin: 0 0 0.2rem;
+  font: 800 1rem/1 "Outfit", sans-serif;
+  text-transform: uppercase;
+  color: #ee5f6b;
+}
+.how__title {
+  position: relative;
+  display: inline-block;
+  margin: 0 0 0.6rem;
+  font: 900 3.6rem/1.1 "Rubik", sans-serif;
+}
+.how__crown {
+  position: absolute;
+  top: -1.6rem;
+  right: -1.8rem;
+  width: 3.6rem;
+  height: auto;
+}
+.how__intro {
+  margin: 0 0 3.5rem;
+  font: 400 1.35rem/1.4 "Outfit", sans-serif;
+}
+
+.steps {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.step {
+  padding: 1.6rem 0 2rem;
+  border-top: 2px dotted rgba(240, 230, 210, 0.45);
+  border-bottom: 2px dotted rgba(240, 230, 210, 0.45);
+}
+.step__head {
+  display: flex;
+  align-items: center;
+  gap: 1.4rem;
+  margin-bottom: 1.4rem;
+}
+.step__num {
+  font: 300 4.5rem/1 "Outfit", sans-serif;
+  color: #ee5f6b;
+}
+.step__title {
+  margin: 0;
+  font: 900 1.9rem/1.1 "Rubik", sans-serif;
+}
+.step__text {
+  margin: 0;
+  font: 400 1.15rem/1.75 "Outfit", sans-serif;
+  color: rgba(240, 230, 210, 0.9);
+}
+

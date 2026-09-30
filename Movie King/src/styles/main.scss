@@ -1,0 +1,15 @@
+// Base
+@use "normalize";
+@use "webfonts";
+@use "variables";
+@use "default";
+
+// Sections
+@use "nav";
+@use "hero";
+@use "how-to-play";
+@use "daily-quote";
+@use "categories";
+@use "play";
+@use "footer";
+
